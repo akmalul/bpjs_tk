@@ -1,0 +1,41 @@
+{
+	"name": "bpjs_tk",
+	"version": "1.0.0",
+	"description": "BPJS Ketenagakerjaan",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "mocha --reporter spec",
+		"cover": "nyc mocha tests/*.test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/akmalul/bpjs_tk.git"
+	},
+	"author": "akmal@hash.id",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/akmalul/bpjs_tk/issues"
+	},
+	"homepage": "https://github.com/akmalul/bpjs_tk#readme",
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/moment": "^2.13.0",
+		"@types/node": "^12.12.11",
+		"@types/random-number": "0.0.0",
+		"@types/xml-js": "^1.0.0",
+		"axios": "^0.19.0",
+		"chai": "^4.2.0",
+		"coveralls": "^3.0.7",
+		"crypto": "^1.0.1",
+		"https": "^1.0.0",
+		"mocha": "^6.2.2",
+		"moment": "^2.24.0",
+		"nyc": "^14.1.1",
+		"random-number": "0.0.9",
+		"typescript": "^3.7.2",
+		"xml-js": "^1.6.11"
+	},
+	"dependencies": {}
+}

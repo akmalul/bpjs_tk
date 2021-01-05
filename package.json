@@ -25,7 +25,7 @@
 		"@types/node": "^12.12.11",
 		"@types/random-number": "0.0.0",
 		"@types/xml-js": "^1.0.0",
-		"axios": "^0.19.0",
+		"axios": "^0.21.1",
 		"chai": "^4.2.0",
 		"coveralls": "^3.0.7",
 		"crypto": "^1.0.1",
